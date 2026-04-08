@@ -78,7 +78,7 @@
 
     <!-- ✅ STEP 2: Replace "REPLACE_WITH_YOUR_FORM_ID" with your Klaviyo embedded form ID -->
     <div class="form-wrapper">
-      <div id="klaviyo-REPLACE_WITH_YOUR_FORM_ID"></div>
+      <div class="klaviyo-form-TZgqW4"></div>
     </div>
 
     <p class="fine-print">no spam · unsubscribe anytime</p>
