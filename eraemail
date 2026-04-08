@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>eating era — tune in</title>
+
+  <!-- ✅ STEP 1: Replace with your Klaviyo public API key -->
+  <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=REPLACE_WITH_YOUR_PUBLIC_API_KEY"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #eef2e0;
+      color: #1a1545;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 460px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 4.5rem;
+      font-style: italic;
+      color: #1a1545;
+      line-height: 1;
+      margin-bottom: 0.25rem;
+    }
+
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: lowercase;
+      color: #6b6a8a;
+      margin-bottom: 2rem;
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      font-weight: 300;
+      color: #6b6a8a;
+      line-height: 1.75;
+      margin-bottom: 2.25rem;
+    }
+
+    .form-wrapper {
+      margin-bottom: 1.25rem;
+    }
+
+    .fine-print {
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      color: #9998b0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">era.</div>
+    <p class="eyebrow">⏳ time to tune in</p>
+
+    <p class="subtitle">Cycle-phase nutrition, research-backed.<br>Be the first in.</p>
+
+    <!-- ✅ STEP 2: Replace "REPLACE_WITH_YOUR_FORM_ID" with your Klaviyo embedded form ID -->
+    <div class="form-wrapper">
+      <div id="klaviyo-REPLACE_WITH_YOUR_FORM_ID"></div>
+    </div>
+
+    <p class="fine-print">no spam · unsubscribe anytime</p>
+  </div>
+</body>
+</html>
